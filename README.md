@@ -37,7 +37,7 @@ You can change this barcode value from BarcodeScanningProcessor.java.
 
 
 ### Presentation
-You can find the thesis presentation [here](https://github.com/nkarampi/GoogleTangoThesis/Presentation)
+You can find the thesis presentation [here](https://github.com/nkarampi/GoogleTangoThesis/Presentation)  
 *Currently the presentation's language is Greek. For a translation you can contact me.*
 
 
