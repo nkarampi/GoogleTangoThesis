@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Thesis</string>
+
+    <string name="thesis_description">This is an implementation for my thesis\n
+    The purpose of this app is to implement and test some Tango functions.\n
+    I have created three modes in this app.\n
+    The first mode is to scan a library. The user gives input with Tango services to measure the
+    height and the width of the library.\n
+    The second mode is to analyze the points of this library to render some of it\'s pieces.\n
+    The third mode is to scan a book. First you scan the book\'s barcode and the you measure it. These
+    values give results from our local DB with book records.\n\n
+    Keep in mind to use the analyze library mode you need the second app of this Thesis.\n\n
+    To start you need to scan the library's barcode.\n\n\n\n
+    Nikolaos Karampinas\n
+    Computer Science Department\n
+    Aristotle University of Thessaloniki (AUTH)\n
+    September 2018</string>
+    <string name="github_project">Github project\nhttps://github.com/nkarampi/GoogleTangoThesis</string>
+    <string name="start">Start</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+
+    <string name="exit_message">Press the screen to finish!</string>
+
+    <!--Alert Dialog-->
+    <string name="alert_title">Tango Project requires camera permission</string>
+    <string name="alert_pos">OK</string>
+    <string name="saved">Saved!</string>
+
+    <!--Results Activity-->
+    <string name="book">Book</string>
+
+    <!--Main Activity-->
+    <string name="library_title">Your Library</string>
+    <string name="library_title_analyze">Analyze Library</string>
+    <string name="library_rescan">Rescan</string>
+    <string name="library_analyze">Analyze</string>
+    <string name="library_unsaved_scan">You haven\'t scanned a library.\nScan now to start recognizing books.</string>
+    <string name="library_scan">Scan Library</string>
+    <string name="library_unsaved">In order to analyze the points of the library you need to scan
+    and save one</string>
+    <string name="library_saved">Analyze the points of the library</string>
+    <string name="book_scan">Scan Book</string>
+    <string name="total_scans">Total Scans</string>
+    <string name="recent_book">Recent book</string>
+    <string name="app_missing">You need to have the second Thesis app</string>
+
+    <!--Tango-->
+    <string name="exception_out_of_date">"Tango service outdated!"</string>
+    <string name="exception_tango_error">"Tango exception!"</string>
+    <string name="exception_tango_invalid">"Tango invalid exception! Try again!"</string>
+    <string name="failed_measurement">Failed to place point</string>
+    <string name="failed_permissions">Permissions required!</string>
+</resources>

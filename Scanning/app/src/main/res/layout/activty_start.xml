@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/page_padding"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:scrollbars="vertical"
+        android:id="@+id/tvProjectDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonStart"
+        android:layout_alignParentTop="true"
+        android:text="@string/thesis_description" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/main_title_margin"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvProjectLink"
+        android:onClick="openBarcode"
+        android:text="@string/start" />
+
+    <TextView
+        android:id="@+id/tvProjectLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/github_project" />
+</RelativeLayout>

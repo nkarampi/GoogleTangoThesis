@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/page_padding"
+    tools:context=".ResultsActivity">
+
+    <TextView
+        android:id="@+id/results_no"
+        tools:text="No results!"
+        tools:visibility="visible"
+        android:layout_centerHorizontal="true"
+        style="@style/ResultsTitle" />
+
+    <TextView
+        android:id="@+id/results_book"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:text="@string/book"
+        style="@style/ResultsTitle"/>
+
+    <android.support.v7.widget.CardView
+        tools:visibility="visible"
+        android:id="@+id/card_view_results"
+        android:layout_below="@+id/results_book"
+        style="@style/CardView.Custom">
+
+    <ListView
+        android:id="@+id/results_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

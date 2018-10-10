@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TangoScanActivity"
+    tools:ignore="LabelFor">
+
+    <org.rajawali3d.view.SurfaceView
+        android:id="@+id/library_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/library_fields" />
+
+    <RelativeLayout
+        android:id="@+id/library_fields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/page_padding" >
+
+        <TextView
+            android:id="@+id/library_scan_x"
+            style="@style/LibraryScanText"
+            android:text="@string/width"
+            tools:visibility="visible" />
+
+        <EditText
+            android:id="@+id/library_scan_x_value"
+            style="@style/LibraryScanEditText"
+            android:layout_below="@+id/library_scan_x"
+            tools:text="1.3"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/library_scan_y"
+            style="@style/LibraryScanText"
+            android:layout_toEndOf="@+id/library_scan_x"
+            android:text="@string/height"
+            tools:visibility="visible" />
+
+        <EditText
+            android:id="@+id/library_scan_y_value"
+            style="@style/LibraryScanEditText"
+            android:layout_below="@+id/library_scan_y"
+            android:layout_toEndOf="@+id/library_scan_x"
+            tools:text="1.5"
+            tools:visibility="visible" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LibraryScanText">
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">@dimen/scan_text_width</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LibraryScanEditText">
+        <item name="android:layout_width">@dimen/scan_text_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="CardView.Custom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">gone</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="contentPadding">@dimen/card_content_padding</item>
+    </style>
+
+    <style name="ResultsTitle">
+        <item name="android:visibility">gone</item>
+        <item name="android:textSize">@dimen/text_x1_4</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MainTitle">
+        <item name="android:textSize">@dimen/text_l</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/main_title_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CardTextViewTitle">
+        <item name="android:layout_width">@dimen/card_tv_title</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/card_tv_mb</item>
+    </style>
+
+    <style name="CardTextViewValue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/card_tv_value_ms</item>
+    </style>
+
+    <style name="CardButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+</resources>
