@@ -37,7 +37,7 @@ You can change this barcode value from BarcodeScanningProcessor.java.
 
 
 ### Presentation
-You can find the thesis presentation in this Repository.
+You can find the thesis presentation in this Repository.  
 *Currently the presentation's language is Greek. For a translation you can contact me.*
 
 
